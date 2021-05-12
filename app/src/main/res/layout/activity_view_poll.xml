@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pollTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="TITLU:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pollDescriptionView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="19sp"
+            android:text="DESCRIERE:" />
+
+        <TextView
+            android:id="@+id/noOfQuestionsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="NUMAR DE INTREBARI:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/noOfOptionsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="NUMAR TOTAL VARIANTE DE RASPUNS:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/noOfRowsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Contine x intregistrari"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/viewPollActionBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Generare grafice"
+            android:textSize="16sp"
+            app:backgroundTint="#01BF08" />
+
+        <Button
+            android:id="@+id/exportAsCSV"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Exporteaza ca CSV"
+            android:textSize="16sp"
+            app:backgroundTint="#019C07" />
+    </LinearLayout>
+
+</ScrollView>

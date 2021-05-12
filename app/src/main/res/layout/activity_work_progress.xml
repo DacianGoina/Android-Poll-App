@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/workProgressTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Calculare pontaj angajati"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/getMonthLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Selecteaza luna:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="19dp" />
+
+        <Spinner
+            android:id="@+id/getMonth"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="18dp"
+            android:dropDownWidth="220dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/getEmployeeNameLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Selecteaza nume angajat:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="19dp" />
+
+        <Spinner
+            android:id="@+id/getEmployeeName"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="18dp"
+            android:dropDownWidth="220dp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/computeWorkProgress"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Calculeaza"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/getInfoStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Datele nu au fost incarcate!\nProblema la baza de date"
+            android:textColor="#FF0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Marius a colectat x inregistrari:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sumPerTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="SONDAJ FUMAT: 24 inregistrari\nSondaj Alegeri 2024: 18 inregistrari\nSondaj test: 100 inregistrari\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:lineSpacingExtra="10dp"
+            android:textSize="19dp" />
+
+    </LinearLayout>
+
+</ScrollView>

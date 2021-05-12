@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/goToProfile"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="-5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Profil"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:backgroundTint="#02A2EA" />
+
+    </LinearLayout>
+
+</ScrollView>

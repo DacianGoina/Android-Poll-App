@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/loginEmailLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Adresa de email:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/loginEmailInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="30"
+            android:layout_marginTop="5dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/loginPasswordLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Parola:"
+            android:layout_marginTop="25dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/loginPasswordInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLength="20" />
+
+        <TextView
+            android:id="@+id/loginInputStatus"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:textColor="#F40A0A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="175dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </LinearLayout>
+
+</ScrollView>

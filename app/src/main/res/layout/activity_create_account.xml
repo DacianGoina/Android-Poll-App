@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/userNameLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Nume de utilizator:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/userNameInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="textPersonName"
+            android:maxLength="20" />
+
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+
+            android:layout_marginTop="20dp"
+            android:text="Adresa de email:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="textEmailAddress"
+            android:maxLength="30" />
+
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Parolă:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="textPassword"
+            android:maxLength="20" />
+
+        <TextView
+            android:id="@+id/repeatPasswordLabel"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Repatare parolă:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/repeatPasswordInput"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:focusable="true"
+            android:inputType="textPassword"
+            android:maxLength="20" />
+
+        <TextView
+            android:id="@+id/inputStatus"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:textColor="#ED1919"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/createAccount"
+            android:layout_width="150dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+            android:text="Crearea cont" />
+
+
+    </LinearLayout>
+
+</ScrollView>

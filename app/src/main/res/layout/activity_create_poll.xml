@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePollActivity">
+
+
+  <TextView
+      android:id="@+id/successMsgLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Create sondaj - pasul 1"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:textSize="20sp" />
+
+  <TextView
+      android:id="@+id/nrOfQuestionsLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="45dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr întrebări:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="18sp" />
+
+  <Spinner
+      android:id="@+id/nrOfQuestionsSpiner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="150dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="35dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question1Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="90dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 1:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question1Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginTop="76dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question2Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="130dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 2:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp"
+       />
+
+  <Spinner
+      android:id="@+id/question2Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="116dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question3Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="170dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 3:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question3Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="156dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question4Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="210dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 4:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question4Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="196dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question5Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="250dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 5:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question5Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="236dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question6Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="290dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 6:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question6Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="276dp"
+      android:spinnerMode="dropdown" />
+
+  <TextView
+      android:id="@+id/question7Label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="330dp"
+      android:fontFamily="sans-serif-condensed-medium"
+      android:text="Număr opțiuni întrebarea 7:"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:textSize="17sp" />
+
+  <Spinner
+      android:id="@+id/question7Spinner"
+      style="@style/Widget.AppCompat.Spinner.Underlined"
+      android:layout_width="80dp"
+      android:dropDownWidth="80dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="227dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="316dp"
+      android:spinnerMode="dropdown" />
+
+  <Button
+      android:id="@+id/createPollGoToStep2"
+      android:layout_width="155dp"
+      android:layout_height="55dp"
+
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="370dp"
+      android:text="Continuă"
+      android:textSize="17sp" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/AppMainTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="Deming"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/openLoginActivity"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Autentificare" />
+
+        <Button
+            android:id="@+id/openRegisterActivity"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Creare cont" />
+
+
+    </LinearLayout>
+
+</ScrollView>

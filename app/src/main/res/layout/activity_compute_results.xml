@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pollTitleChart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center_horizontal"
+            android:text="titlu sondaj"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/noOfPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Esantion: 100 oameni"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartA"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartB"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartC"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartD"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartE"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartF"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartG"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            />
+
+
+         <Button
+            android:id="@+id/backToUserActivity"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Back"
+            android:layout_marginBottom="22dp"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/getDataStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Datele nu au fost incarcate!\nProblema la baza de date"
+            android:textColor="#FF0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>
