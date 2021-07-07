@@ -1,9 +1,11 @@
 # Deming
 Poll app for Android: creates polls, collects data from people directly in application, generate charts using collected data, export collected data,check how many records were collected by every employee.
 
-**Start page*
+**Start page**
 
 ![1](https://user-images.githubusercontent.com/73591137/124751374-3a546b00-df2f-11eb-83fc-b6edd78547e5.jpg)
+
+
 
 
 **Login and account info**
@@ -11,9 +13,13 @@ Poll app for Android: creates polls, collects data from people directly in appli
 ![img1](https://user-images.githubusercontent.com/73591137/124751395-40e2e280-df2f-11eb-93c1-1e0fa294f1ca.jpg)
 
 
+
+
 **Create poll (as manager)**
 
 ![img2](https://user-images.githubusercontent.com/73591137/124751429-4c360e00-df2f-11eb-900f-6683df9d5ebd.jpg)
+
+
 
 
 **Add record (as employer)**
